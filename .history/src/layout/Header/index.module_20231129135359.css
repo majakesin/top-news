@@ -1,0 +1,17 @@
+@import '../../styles/variables.css';
+
+.navigation {
+    position: sticky;
+    height: 50px;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 16px;
+    width: 70px;
+    height: 75px;
+}

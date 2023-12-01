@@ -1,0 +1,17 @@
+@import '../../styles/variables.css';
+
+.root {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.errorImage {
+    width: 200px;
+    height: 300px;
+}
+
+.description {
+   color: var(--error-color);
+}

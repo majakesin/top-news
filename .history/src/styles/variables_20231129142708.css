@@ -1,0 +1,6 @@
+:root {
+    --error-color: red;
+    --header-color: black;
+    --header-text-color: white;
+    --header-text-color-hover: rgb(168, 0, 0);
+}

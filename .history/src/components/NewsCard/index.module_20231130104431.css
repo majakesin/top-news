@@ -1,0 +1,31 @@
+
+@import '../../styles/variables.css';
+
+.card {
+    display: flex;
+    width: 80%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    flex-direction: row;
+    margin: 16px 0;
+}
+
+.image {
+    width: 400px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 8px 16px 32px;
+}
+
+.showMore {
+    background-color: var(--header-button-color);
+    color: var(--header-text-color);
+    border: none;
+    margin: 0 8px;
+}
+
+.showMore:hover {
+    background-color: var(--header-button-color-hover);
+}   

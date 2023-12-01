@@ -1,0 +1,19 @@
+@import '../../styles/variables.css';
+
+.loader {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    background-color: var(--loading-skeleton);
+
+    @media (max-width:768px)  {
+        flex-direction: column;
+        font-size: 10px;
+    }
+    margin: 16px 0;
+
+}
+
+.loader {
+    animation: skeleton-loading 1s linear infinite alternate;
+  }

@@ -1,0 +1,11 @@
+@import '../../styles/variables.css';
+
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+   color: var(--error-color);
+}

@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        ["eslint:recommended", 1]
+        ["plugin:react/recommended",1]
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "loader": "eslint-loader",
+    "options":{
+      "emitWarning": true,
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+    }
+}

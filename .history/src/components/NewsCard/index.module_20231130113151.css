@@ -1,0 +1,42 @@
+
+@import '../../styles/variables.css';
+
+.card {
+    display: flex;
+    width: 80%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    flex-direction: row;
+    margin: 16px 0;
+}
+
+.image {
+    width: 40%;
+}
+
+.noImage {
+    height: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 8px 16px 32px;
+}
+
+.showMore {
+    background-color: var(--header-button-color);
+    text-decoration: none;
+    color: var(--header-text-color);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 0 8px;
+    width: fit-content;
+}
+
+.showMore:hover {
+    background-color: var(--header-button-color-hover);
+}  
+.showMore:focus {
+    outline: none;
+} 

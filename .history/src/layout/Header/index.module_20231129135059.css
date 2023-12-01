@@ -1,0 +1,13 @@
+@import '../../styles/variables.css';
+
+.navigation {
+    position: sticky;
+    width: 200px;
+    background-color:  --header-color: ;
+}
+
+
+.logo {
+    width: 50px;
+    height: 15px;
+}

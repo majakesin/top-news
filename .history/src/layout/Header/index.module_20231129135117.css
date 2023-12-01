@@ -1,0 +1,15 @@
+@import '../../styles/variables.css';
+
+.navigation {
+    position: sticky;
+    width: 200px;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 50px;
+    height: 15px;
+}

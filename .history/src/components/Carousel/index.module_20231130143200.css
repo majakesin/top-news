@@ -1,0 +1,23 @@
+
+.root {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showMore {
+
+}
+
+.showMore:hover {
+
+}
+
+.showMore:focus {
+    outline: none;
+}

@@ -1,0 +1,13 @@
+import React from 'react';
+import errorPage from 'src/assets/images/errorPage.png';
+
+import styles from './index.module.css';
+
+const ErrorPage = () => (
+    <div className={styles.root}>
+      <img className={styles.errorImage} src={errorPage} alt="Error Image" />
+      <p className={styles.description}>This page doesn&apos;t exists. Try again. :) </p>
+    </div>
+);
+
+export default ErrorPage;

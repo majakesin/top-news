@@ -1,0 +1,10 @@
+:root {
+    --error-color: red;
+    --header-color: black;
+    --header-text-color: white;
+    --header-text-color-hover: rgb(221, 213, 213);
+    --header-button-color: red;
+    --header-button-color-hover: rgb(204, 1, 1);
+    --descripton-text-color: rgb(15, 14, 14);
+    --loading-skeleton: gray;
+}

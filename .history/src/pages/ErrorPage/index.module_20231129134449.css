@@ -1,0 +1,24 @@
+@import '../../styles/variables.css';
+
+.root {
+    position: absolute;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.errorImage {
+    width: 400px;
+    height: 400px;
+}
+
+.description {
+   color: var(--error-color);
+   font-weight: bold;
+   justify-self: center;
+   width: fit-content;
+   margin-left: 4%;
+}

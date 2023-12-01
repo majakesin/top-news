@@ -1,0 +1,43 @@
+@import '../../styles/variables.css';
+
+.navigation {
+    position: fixed;
+    height: 50px;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+
+.logo {
+    margin: 0 16px;
+    width: 90px;
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link {
+    color: var(--header-text-color);
+    text-decoration: none;
+    align-self: center;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: var(--header-text-color-hover);
+}
+
+.headerButton {
+    background-color: var(--header-text-color-hover);
+    color: var(--header-text-color);
+    border: none;
+}
+
